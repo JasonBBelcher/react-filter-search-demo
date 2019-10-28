@@ -22,9 +22,7 @@ class App extends Component {
 
   search(e) {
     console.log(e.target.value)
-    this.setState({searchTerm: e.target.value})
-
-
+    this.setState({searchTerm: e.target.value.toLowerCase()})
   }
 
    showDetails(user) {

@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <div class="container">
       <header>
-        <h1>Filter Search Demo</h1>
+        <h1> React Filter Search Demo</h1>
       </header>
       <input class="search-box" onKeyUp={(e) => this.searchTerm(e)}   type="text"></input>
         <ul class="collapse-able">
